@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // Note: Static export is not compatible with Supabase server-side features
+  // Use Vercel, Railway, or similar platforms for deployment
   images: {
     unoptimized: true,
   },
